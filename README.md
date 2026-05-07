@@ -54,14 +54,7 @@ proyecto-dock/
 
 ## Instrucciones de uso
 
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/docker-webservers-cv.git
-cd docker-webservers-cv
-```
-
-### 2. Generar los certificados SSL
+### 1. Generar los certificados SSL
 
 ```bash
 mkdir certs
@@ -71,13 +64,13 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   -subj "/CN=localhost"
 ```
 
-### 3. Levantar los contenedores
+### 2. Levantar los contenedores
 
 ```bash
 docker compose up -d
 ```
 
-### 4. Verificar que estén corriendo
+### 3. Verificar que estén corriendo
 
 ```bash
 docker compose ps
