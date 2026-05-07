@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Candy Camila Ordoñez Pinto — Computer Engineering Student & Developer"
+    />
+    <title>Candy Ordoñez - CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="hero" role="banner">
+      <figure class="hero__photo-wrap">
+        <img
+          class="hero__photo"
+          src="./img/me.jpeg"
+          alt="Candy Camila Ordoñez Pinto"
+          width="120"
+          height="120"
+        />
+      </figure>
+      <h1 class="hero__name">Candy Camila<br /><em>Ordoñez Pinto</em></h1>
+      <p class="hero__role">Frontend &amp; Backend Developer</p>
+
+      <ul class="hero__badges" aria-label="Key roles">
+        <li class="badge badge--1">
+          <span class="badge__icon" aria-hidden="true"></span>
+          Computer Engineering Student
+        </li>
+        <li class="badge badge--2">
+          <span class="badge__icon" aria-hidden="true"></span>
+          Competitive Programming Enthusiast ICPC
+        </li>
+        <li class="badge badge--3">
+          <span class="badge__icon" aria-hidden="true"></span>
+          Scientific Society Member SCESI
+        </li>
+      </ul>
+
+      <section class="hero__about">
+        <h2 class="section-label">About me</h2>
+        <p>
+          I'm a computer engineering student halfway through my degree,
+          passionate about building creative and innovative software. I started
+          my journey in <strong>Frontend</strong> — learning HTML, CSS and
+          JavaScript — and gradually expanded into
+          <strong>Backend</strong> development, exploring APIs, servers and
+          databases. I love solving problems, competing in programming contests
+          and collaborating with other builders.
+        </p>
+      </section>
+
+      <section class="hero__hobbies">
+        <h2 class="section-label">Hobbies</h2>
+        <ul class="hobby-list" role="list">
+          <li>Video games</li>
+          <li>Music</li>
+          <li>Science books</li>
+          <li>Competitive programming</li>
+          <li>Open source</li>
+        </ul>
+      </section>
+
+    </header>
+
+    <main id="main">
+      <section class="section" id="skills" aria-labelledby="skills-heading">
+        <div class="section__inner">
+          <span class="section__number" aria-hidden="true">01</span>
+          <h2 class="section__title" id="skills-heading">Tools &amp; Skills</h2>
+
+          <section class="skill-group">
+            <h3 class="skill-group__label">Frontend</h3>
+            <ul class="skill-grid" role="list">
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--html">H5</span>
+                <span>HTML</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--css">C3</span>
+                <span>CSS</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--js">JS</span>
+                <span>JavaScript</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--react">R</span>
+                <span>React</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="skill-group">
+            <h3 class="skill-group__label">Backend</h3>
+            <ul class="skill-grid" role="list">
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--node">N</span>
+                <span>Node.js</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--java">J</span>
+                <span>Java</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--python"
+                  >Py</span>
+                <span>Python</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--cpp">C++</span>
+                <span>C++</span>
+              </li>
+            </ul>
+          </section>
+
+
+          <section class="skill-group">
+            <h3 class="skill-group__label">Tools &amp; Design</h3>
+            <ul class="skill-grid" role="list">
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--figma">F</span>
+                <span>Figma</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--linux">🐧</span>
+                <span>Linux</span>
+              </li>
+              <li class="skill-card">
+                <span class="skill-card__icon skill-card__icon--git">Git</span>
+                <span>Git</span>
+              </li>
+            </ul>
+          </section>
+
+          <aside class="learning-box">
+            <p class="learning-box__label"> Currently learning</p>
+            <ul class="learning-box__list" role="list">
+              <li>Angular</li>
+              <li>Nest.js</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section
+        class="section section--alt"
+        id="projects"
+        aria-labelledby="projects-heading"
+      >
+        <div class="section__inner">
+          <span class="section__number" aria-hidden="true">02</span>
+          <h2 class="section__title" id="projects-heading">Projects</h2>
+
+          <ul class="project-list" role="list">
+            <li class="project-card">
+              <figure class="project-card__img-wrap">
+                <img
+                  src="./img/web.png"
+                  alt="YOU project screenshot"
+                  class="project-card__img"
+                  loading="lazy"
+                />
+                <span class="project-card__tag">Web App</span>
+              </figure>
+              <section class="project-card__body">
+                <h3 class="project-card__name">YOU</h3>
+                <p class="project-card__desc">
+                  A web application that analyzes shared text messages between two people,
+                  displaying individual and combined message counts with metrics and statistics
+                  built with Node.js and JavaScript.
+                </p>
+                <ul class="project-card__tags" aria-label="Technologies">
+                  <li>Node.js</li>
+                </ul>
+                <nav class="project-card__links">
+                  <a
+                    href="#"
+                    class="btn btn--ghost"
+                    aria-label="View YOU project on GitHub"
+                    >GitHub →</a
+                  >
+                </nav>
+              </section>
+            </li>
+
+            <li class="project-card">
+              <figure class="project-card__img-wrap">
+                <img
+                  src="./img/snapfilm.png"
+                  alt="SANPFILM project screenshot"
+                  class="project-card__img"
+                  loading="lazy"
+                />
+                <span class="project-card__tag">Film</span>
+              </figure>
+              <section class="project-card__body">
+                <h3 class="project-card__name">SANPFILM</h3>
+                <p class="project-card__desc">
+                  A film-related platform with a clean, cinematic interface.
+                </p>
+                <ul class="project-card__tags" aria-label="Technologies">
+                  <li>Node.js</li>
+                  <li>React</li>
+                  <li>JavaScript</li>
+                </ul>
+                <nav class="project-card__links">
+                  <a
+                    href="https://github.com/Amiddala/snapfilm-backend"
+                    class="btn btn--ghost"
+                    aria-label="View SANPFILM on GitHub"
+                    >GitHub →</a
+                  >
+                </nav>
+              </section>
+            </li>
+
+            <li class="project-card">
+              <figure class="project-card__img-wrap">
+                <img
+                  src="./img/cocha.png"
+                  alt="Cocha-AI Community Landing Page screenshot"
+                  class="project-card__img"
+                  loading="lazy"
+                />
+                <span class="project-card__tag">Landing Page</span>
+              </figure>
+              <section class="project-card__body">
+                <h3 class="project-card__name">Cocha-AI Community</h3>
+                <p class="project-card__desc">
+                  Landing page for the Cocha-AI community, an AI enthusiasts
+                  group in Cochabamba.
+                </p>
+                <ul class="project-card__tags" aria-label="Technologies">
+                  <li>Nest</li>
+                  <li>JavaScript</li>
+                </ul>
+                <nav class="project-card__links">
+                  <a
+                    href="https://github.com/scesi/cocha-ai-be"
+                    class="btn btn--ghost"
+                    aria-label="View Cocha-AI on GitHub"
+                    >GitHub →</a>
+                  <a
+                    href="https://cocha-ai.org/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAQdmtpleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafoqUW4cumTRjTlyWJzna19sYwX4NeLrWvdcPYl5HcGEu4rVYxVj4Pyze_tDA_aem_ZmFrZWR1bW15MTZieXRlcw"
+                    class="btn btn--ghost"
+                    aria-label="View Cocha-AI live"
+                    >Live →</a
+                  >
+                </nav>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="section section--contact"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="section__inner">
+          <span class="section__number" aria-hidden="true">03</span>
+          <h2 class="section__title section__title--light" id="contact-heading">
+            Let's connect
+          </h2>
+          <p class="contact__sub">
+            I'm open to internships, collaborations and open source projects.
+            Feel free to reach out!
+          </p>
+
+          <a href="mailto:candyordonez240@gmail.com" class="contact__email">
+            candyordonez240@gmail.com
+          </a>
+          <div class="contact__socials" aria-label="Social media links">
+            <a
+              href="https://github.com/Amiddala"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              aria-label="GitHub"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.185 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.031 1.531 1.031.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.111-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .268.18.579.688.481C19.138 20.203 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"
+                />
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/candy-camila-ordo%C3%B1ez-pinto-89a06235a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-btn"
+              aria-label="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zm2-5a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
+                />
+              </svg>
+              LinkedIn
+            </a>
+            <a href="https://www.instagram.com/cmilaodz" class="social-btn" aria-label="Instagram">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r="1"
+                  fill="currentColor"
+                  stroke="none"
+                />
+              </svg>
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100090062624125&locale=es_LA" class="social-btn" aria-label="Discord">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"
+                />
+              </svg>
+              Discord
+            </a>
+             <a href="https://www.facebook.com/candy.ordonez.7" class="social-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M22.675 0h-21.35C.597 0 0 .597 0 1.333v21.334C0 23.403.597 24 1.325 24h11.495v-9.294H9.691v-3.622h3.129V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.794.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.312h3.591l-.467 3.622h-3.124V24h6.116C23.403 24 24 23.403 24 22.667V1.333C24 .597 23.403 0 22.675 0z"
+                />
+              </svg>
+              Facebook
+            </a>
+            <a href="https://codeforces.com/profile/amidala" class="social-btn" aria-label="Codeforces">
+              Codeforces
+            </a>
+          </nav>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+      <p>
+        Candy Camila Ordoñez Pinto &nbsp;·&nbsp;
+        <time datetime="2026">2026</time>
+      </p>
+    </footer>
+  </body>
+</html>
