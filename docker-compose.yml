@@ -1,0 +1,30 @@
+services:
+  apache:
+    image: httpd:2.4
+    container_name: servidor_apache
+    ports:
+      - "8080:80"
+      - "8443:443"
+    volumes:
+      - ./cvs:/usr/local/apache2/htdocs
+      - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./certs:/usr/local/apache2/certs
+    networks:
+      - red_web
+
+  nginx:
+    image: nginx:latest
+    container_name: servidor_nginx
+    ports:
+      - "8081:80"
+      - "8444:443"
+    volumes:
+      - ./cvs:/usr/share/nginx/html
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./certs:/etc/nginx/certs
+    networks:
+      - red_web
+
+networks:
+  red_web:
+    driver: bridge
